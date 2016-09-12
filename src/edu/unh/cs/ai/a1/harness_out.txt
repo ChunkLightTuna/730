@@ -1,0 +1,122 @@
+~~~~~~~~~~~~  ./run.sh  ~~~~~~~~~~~~
+2x4 grid w/ 2 bits of dirt using uniform-cost
+EVSV
+21 nodes generated
+11 nodes expanded
+0.198 seconds
+
+3x5 grid w/ 4 bits of dirt using uniform-cost
+SVNNNVNVEV
+270 nodes generated
+108 nodes expanded
+0.185 seconds
+
+4x6 grid w/ 6 bits of dirt using uniform-cost
+NVSEVSVENVNVEV
+1741 nodes generated
+718 nodes expanded
+0.213 seconds
+
+5x7 grid w/ 8 bits of dirt using uniform-cost
+NVWVSSSVWVSSVEENVSEVNNENV
+16445 nodes generated
+6244 nodes expanded
+0.234 seconds
+
+6x8 grid w/ 10 bits of dirt using uniform-cost
+NVEVSSVEVNEEEVNVNWVENVWNNVWWNWWSV
+81815 nodes generated
+30266 nodes expanded
+0.322 seconds
+
+2x4 grid w/ 2 bits of dirt using maxDepth-first
+SEVWNEV
+15 nodes generated
+7 nodes expanded
+0.186 seconds
+
+3x5 grid w/ 4 bits of dirt using maxDepth-first
+SVNEENWWNVSSEENWNNVWV
+61 nodes generated
+25 nodes expanded
+0.175 seconds
+
+4x6 grid w/ 6 bits of dirt using maxDepth-first
+SSSEENENWWVWSSEENENWNVWVWSSSEENENWNENVWVSWWSSSEENENNNNWWWSV
+159 nodes generated
+62 nodes expanded
+0.188 seconds
+
+5x7 grid w/ 8 bits of dirt using maxDepth-first
+WSWSVSSVEEEVWWWNEEVWWSEEENNWWVWSSEEENWNEENVSWWWWNEENWNVSSWSSSEEENWWNENNENWV
+369 nodes generated
+132 nodes expanded
+0.190 seconds
+
+6x8 grid w/ 10 bits of dirt using maxDepth-first
+SEVWNEESVWWNEEEESENVWWWWWNVSSEENWNVWSSEENEESENNVWWWWWNEEEEVWWWWSSSEENWNEESESENNNNVWWWWNENEEVWWNWWSV
+1232473 nodes generated
+403291 nodes expanded
+0.572 seconds
+
+~~~~~~~~~~~~  ./vacuum-plan-reference  ~~~~~~~~~~~~
+2x4 grid w/ 2 bits of dirt using uniform-cost
+EVSV
+25 nodes generated
+13 nodes expanded
+0.002 seconds
+
+3x5 grid w/ 4 bits of dirt using uniform-cost
+SVNNNVNVEV
+286 nodes generated
+113 nodes expanded
+0.002 seconds
+
+4x6 grid w/ 6 bits of dirt using uniform-cost
+NVSSEVNVEVNVEV
+1769 nodes generated
+732 nodes expanded
+0.007 seconds
+
+5x7 grid w/ 8 bits of dirt using uniform-cost
+NVWVSSSVWVSSVEENVESVNNENV
+16261 nodes generated
+6172 nodes expanded
+0.145 seconds
+
+6x8 grid w/ 10 bits of dirt using uniform-cost
+NVEVSSVEVNEEEVNVNNVSWVNNNVWWNWWSV
+84010 nodes generated
+31073 nodes expanded
+3.135 seconds
+
+2x4 grid w/ 2 bits of dirt using maxDepth-first
+SEVWNEV
+14 nodes generated
+7 nodes expanded
+0.001 seconds
+
+3x5 grid w/ 4 bits of dirt using maxDepth-first
+SVNEENWWNVSSEENWNNVWV
+60 nodes generated
+25 nodes expanded
+0.002 seconds
+
+4x6 grid w/ 6 bits of dirt using maxDepth-first
+SSSEENENWWVWSSEENENWNVWVWSSSEENENWNENVWVSWWSSSEENENNNNWWWSV
+158 nodes generated
+62 nodes expanded
+0.002 seconds
+
+5x7 grid w/ 8 bits of dirt using maxDepth-first
+WSWSVSSVEEEVWWWNEEVWWSEEENNWWVWSSEEENWNEENVSWWWWNEENWNVSSWSSSEEENWWNENNENWV
+368 nodes generated
+132 nodes expanded
+0.003 seconds
+
+6x8 grid w/ 10 bits of dirt using maxDepth-first
+SEVWNEESVWWNEEEESENVWWWWWNVSSEENWNVWSSEENEESENNVWWWWWNEEEEVWWWWSSSEENWNEESESENNNNVWWWWNENEEVWWNWWSV
+1232472 nodes generated
+403291 nodes expanded
+1.509 seconds
+
